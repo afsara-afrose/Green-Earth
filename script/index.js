@@ -91,7 +91,7 @@ const showPlantModal = (plant) => {
   document.getElementById("modal-img").src = plant.image;
   document.getElementById("modal-desc").innerText = plant.description;
   document.getElementById("modal-category").innerText = plant.category;
-  document.getElementById("modal-price").innerText = `<i class="fa-solid fa-bangladeshi-taka-sign"></i> ${plant.price}`;
+  document.getElementById("modal-price").innerText = `${plant.price}`;
 
   document.getElementById("plant_modal").showModal();
 };
@@ -115,7 +115,7 @@ const renderCart = () => {
     div.className = "flex justify-between items-center";
 
     div.innerHTML = `
-      <div >
+      <div className='bg-green-300'>
       <h2>${item.name}</h2>
       <p><i class="fa-solid fa-bangladeshi-taka-sign"></i> ${item.price}</p>
       </div>
