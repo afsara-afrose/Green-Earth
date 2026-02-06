@@ -186,14 +186,87 @@
   </div>
 </dialog>
 
+
+
     </main>
 
-   <!-- Tree Form -->
-    <section class="bg-green-100 py-16">
-      <div class="max-w-xl mx-auto bg-white p-6 rounded-xl shadow">
-        <h2 class="text-2xl font-bold text-center mb-5">Plant a Tree Today</h2>
+    <!-- About the Campaign -->
+<section class="bg-green-50 py-16">
+  <h2 class="text-2xl font-bold text-center mb-10">
+    About the Campaign
+  </h2>
 
-        <form class="space-y-4">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
+    <!-- Image -->
+    <div class="flex justify-center">
+      <img
+        src="./assets/about.png"
+        alt="Plant"
+        class="rounded-xl w-80 shadow"
+      />
+    </div>
+
+    <!-- Content -->
+    <div class="text-gray-600 text-sm space-y-4">
+      <p>
+        Green Earth is a global tree plantation initiative dedicated to
+        fighting climate change. Since our start, we’ve planted over
+        500,000 trees worldwide.
+      </p>
+
+      <p>
+        By joining our campaign, you help restore forests, create habitats
+        for wildlife, and combat global warming.
+      </p>
+
+      <ul class="list-disc ml-5 space-y-1">
+        <li>Restoration of natural habitats</li>
+        <li>Improvement of air quality</li>
+        <li>Support for local communities</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Our Impact -->
+<section class="bg-green-200 py-16">
+  <h2 class="text-2xl font-bold text-center mb-10">
+    Our Impact
+  </h2>
+
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 px-4">
+    <!-- Card 1 -->
+    <div class="bg-white p-6 rounded-xl text-center shadow hover:bg-green-300">
+      <h3 class="text-2xl font-bold text-green-700">500K+</h3>
+      <p class="text-gray-600 text-sm mt-1">Trees Planted</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white p-6 rounded-xl text-center shadow  hover:bg-green-300">
+      <h3 class="text-2xl font-bold text-green-700">120+</h3>
+      <p class="text-gray-600 text-sm mt-1">
+        Communities Involved
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white p-6 rounded-xl text-center shadow  hover:bg-green-300">
+      <h3 class="text-2xl font-bold text-green-700">30+</h3>
+      <p class="text-gray-600 text-sm mt-1">
+        Countries Reached
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+   <!-- Tree Form -->
+    <section class="bg-green-700 py-16">
+      
+        <h2 class="text-2xl font-bold text-center mb-5 text-white">Plant a Tree Today</h2>
+        <div class="bg-green-600 max-w-xl mx-auto  p-6 rounded-xl shadow">
+           <form class="space-y-4 p-10 ">
           <input
             type="text"
             placeholder="Your Name"
@@ -209,13 +282,17 @@
             placeholder="Number of Trees"
             class="input input-bordered w-full"
           />
-          <button class="btn bg-green-700 text-white w-full">Submit</button>
+          <button class="p-3 bg-yellow-500 text-white w-full rounded-full">Submit</button>
         </form>
-      </div>
+
+        </div>
+
+       
+      
     </section>
 
    <!-- Footer -->
-    <footer class="bg-green-700 text-white text-center py-4">
+    <footer class="bg-green-800 text-white text-center py-4">
       © 2026 Green Earth. All rights reserved.
     </footer>
 
