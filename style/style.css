@@ -1,3 +1,17 @@
 *{
     font-family: "Inter", sans-serif;
 }
+
+.btn-category {
+  
+  color: #166534;
+  
+}
+
+.btn-active {
+  background-color: #16a34a;
+  color: white;
+  border-radius: 30px;
+  
+  
+}
